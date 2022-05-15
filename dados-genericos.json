@@ -1,0 +1,7 @@
+{
+    "genericData": [
+        {"id":"1", "name":"Fulano da Silva", "type":"Delito"},
+        {"id":"2", "name":"Siclano dos Santos", "type":"Furto"},
+        {"id":"3", "name":"Beltrano Pereira", "type":"Roubo"}
+    ]
+}
