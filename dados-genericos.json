@@ -1,7 +1,7 @@
 {
-    "genericData": [
-        {"id":"1", "name":"Fulano da Silva", "type":"Delito"},
-        {"id":"2", "name":"Siclano dos Santos", "type":"Furto"},
-        {"id":"3", "name":"Beltrano Pereira", "type":"Roubo"}
+    "trechoDeVia": [
+        {"id":"1", "name":"Fulano da Silva", "num_inf":0, "num_sup": 7, "risco": 5.2, "extremoA":"cruzamento_via", "extremoB":"cruzamento_via"},
+        {"id":"2", "name":"Siclano dos Santos", "num_inf":5, "num_sup": 9, "risco": 3.7, "extremoA":"cruzamento_via", "extremoB":"cruzamento_via"},
+        {"id":"3", "name":"Beltrano Pereira", "num_inf":2, "num_sup": 4, "risco": 4.0, "extremoA":"cruzamento_via", "extremoB":"cruzamento_via"}
     ]
 }

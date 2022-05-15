@@ -3,6 +3,7 @@ const {
     GraphQLObjectType,
     GraphQLString,
     GraphQLInt,
+    GraphQLFloat,
     GraphQLSchema,
     GraphQLList,
     GraphQLNonNull
@@ -14,7 +15,11 @@ GenericType = new GraphQLObjectType({
     fields:() => ({
         id: {type: GraphQLString},
         name: {type: GraphQLString},
-        type: {type: GraphQLString},
+        num_inf: {type: GraphQLInt},
+        num_sup: {type: GraphQLInt},
+        risco: {type: GraphQLFloat},
+        extremoA: {type: GraphQLString},
+        extremoB: {type: GraphQLString},
     })
 });
 
@@ -28,14 +33,14 @@ const RootQuery = new GraphQLObjectType({
                 id: {type: GraphQLString}
             },
             resolve(parentValue, args){
-                return axios.get('http://localhost:3000/genericData/'+ args.id)
+                return axios.get('http://localhost:3000/trechoDeVia/'+ args.id)
                     .then(resp => resp.data);
             }
         },
         dataList: {
             type: new GraphQLList(GenericType),
             resolve(parentValue, args){
-                return axios.get('http://localhost:3000/genericData/')
+                return axios.get('http://localhost:3000/trechoDeVia/')
                     .then(resp => resp.data);
             }
         }
