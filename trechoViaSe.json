@@ -1,0 +1,101 @@
+{
+	[
+		{
+			"idTVia":"0",
+			"nomeVia":"rua carolina augusta",
+			"numInfVia":"90",
+			"numSupVia":"95",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"1",
+			"nomeVia":"rua carolina augusta",
+			"numInfVia":"10",
+			"numSupVia":"61",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"2",
+			"nomeVia":"rua oliveira monteiro",
+			"numInfVia":"9",
+			"numSupVia":"25",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"3",
+			"nomeVia":"rua joão de carvalho",
+			"numInfVia":"58",
+			"numSupVia":"102",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"4",
+			"nomeVia":"rua joão de carvalho",
+			"numInfVia":"30",
+			"numSupVia":"51",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"5",
+			"nomeVia":"rua conde de sarzedas",
+			"numInfVia":"16",
+			"numSupVia":"133",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"6",
+			"nomeVia":"rua conde de sarzedas",
+			"numInfVia":"134",
+			"numSupVia":"210",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"7",
+			"nomeVia":"rua conde de sarzedas",
+			"numInfVia":"215",
+			"numSupVia":"287",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"8",
+			"nomeVia":"rua conde de sarzedas",
+			"numInfVia":"305",
+			"numSupVia":"346",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"9",
+			"nomeVia":"rua conde de sarzedas",
+			"numInfVia":"354",
+			"numSupVia":"413",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"10",
+			"nomeVia":"rua oscar cintra gordinho",
+			"numInfVia":"9",
+			"numSupVia":"185",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"11",
+			"nomeVia":"rua oscar cintra gordinho",
+			"numInfVia":"210",
+			"numSupVia":"",
+			"risco":"0.0",
+			"extremoA":"",
+			"extremoB":""
+		}
+	]
+}
