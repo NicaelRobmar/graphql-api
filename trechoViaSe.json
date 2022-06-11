@@ -1,99 +1,147 @@
 {
 	[
 		{
-			"idTVia":"0",
+			"idTVia":"0_trechoVia",
 			"nomeVia":"rua carolina augusta",
 			"numInfVia":"90",
 			"numSupVia":"95",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"0_cruzamentoVia",
+			"extremoB":"1_cruzamentoVia"
 		},{
-			"idTVia":"1",
+			"idTVia":"1_trechoVia",
 			"nomeVia":"rua carolina augusta",
 			"numInfVia":"10",
 			"numSupVia":"61",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"1_cruzamentoVia",
+			"extremoB":"2_cruzamentoVia"
 		},{
-			"idTVia":"2",
+			"idTVia":"2_trechoVia",
 			"nomeVia":"rua oliveira monteiro",
 			"numInfVia":"9",
 			"numSupVia":"25",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"1_cruzamentoVia",
+			"extremoB":"4_cruzamentoVia"
 		},{
-			"idTVia":"3",
+			"idTVia":"3_trechoVia",
 			"nomeVia":"rua joão de carvalho",
 			"numInfVia":"58",
 			"numSupVia":"102",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"2_cruzamentoVia",
+			"extremoB":"3_cruzamentoVia"
 		},{
-			"idTVia":"4",
+			"idTVia":"4_trechoVia",
 			"nomeVia":"rua joão de carvalho",
 			"numInfVia":"30",
 			"numSupVia":"51",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"2_cruzamentoVia",
+			"extremoB":"5_cruzamentoVia"
 		},{
-			"idTVia":"5",
+			"idTVia":"5_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
 			"numInfVia":"16",
 			"numSupVia":"133",
 			"risco":"0.0",
+			"dataMut":"1971-01-01",
 			"extremoA":"",
 			"extremoB":""
 		},{
-			"idTVia":"6",
+			"idTVia":"6_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
 			"numInfVia":"134",
 			"numSupVia":"210",
 			"risco":"0.0",
-			"extremoA":"",
+			"dataMut":"1971-01-01",
+			"extremoA":"4_cruzamentoVia",
 			"extremoB":""
 		},{
-			"idTVia":"7",
+			"idTVia":"7_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
 			"numInfVia":"215",
 			"numSupVia":"287",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"4_cruzamentoVia",
+			"extremoB":"5_cruzamentoVia"
 		},{
-			"idTVia":"8",
+			"idTVia":"8_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
 			"numInfVia":"305",
 			"numSupVia":"346",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"5_cruzamentoVia",
+			"extremoB":"6_cruzamentoVia"
 		},{
-			"idTVia":"9",
+			"idTVia":"9_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
 			"numInfVia":"354",
 			"numSupVia":"413",
 			"risco":"0.0",
-			"extremoA":"",
+			"dataMut":"1971-01-01",
+			"extremoA":"6_cruzamentoVia",
 			"extremoB":""
 		},{
-			"idTVia":"10",
+			"idTVia":"10_trechoVia",
 			"nomeVia":"rua oscar cintra gordinho",
 			"numInfVia":"9",
 			"numSupVia":"185",
 			"risco":"0.0",
-			"extremoA":"",
-			"extremoB":""
+			"dataMut":"1971-01-01",
+			"extremoA":"6_cruzamentoVia",
+			"extremoB":"7_cruzamentoVia"
 		},{
-			"idTVia":"11",
+			"idTVia":"11_trechoVia",
 			"nomeVia":"rua oscar cintra gordinho",
 			"numInfVia":"210",
 			"numSupVia":"272",
 			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"7_cruzamentoVia",
+			"extremoB":""
+		},{
+			"idTVia":"12_trechoVia",
+			"nomeVia":"rua helena zerrener",
+			"numInfVia":"9",
+			"numSupVia":"324",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"7_cruzamentoVia",
+			"extremoB":""
+		},{
+			"idTVia":"13_trechoVia",
+			"nomeVia":"rua glicerio",
+			"numInfVia":"26",
+			"numSupVia":"180",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"14_trechoVia",
+			"nomeVia":"rua glicerio",
+			"numInfVia":"190",
+			"numSupVia":"260",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"",
+			"extremoB":""
+		},{
+			"idTVia":"_trechoVia",
+			"nomeVia":"",
+			"numInfVia":"",
+			"numSupVia":"",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
 			"extremoA":"",
 			"extremoB":""
 		}
