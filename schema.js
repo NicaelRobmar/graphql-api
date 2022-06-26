@@ -11,24 +11,28 @@ const {
 } = require('graphql');
 
 //Tipo genérico de dado instanciado para o GraphQL
-GenericType = new GraphQLObjectType({
+OccurrenceType = new GraphQLObjectType({
     name: 'Gereric',
     fields:() => ({
-        id: {type: GraphQLString},
-        // name: {type: GraphQLString},
-        // num_inf: {type: GraphQLInt},
-        // num_sup: {type: GraphQLInt},
-        // risco: {type: GraphQLFloat},
-        // extremoA: {type: GraphQLString},
-        // extremoB: {type: GraphQLString},
-        nome: {type: GraphQLString},
-        tipo: {type: GraphQLString},
+        ID: {type: GraphQLString},
+        ANO_BO: {type: GraphQLInt},
+        DATAOCORRENCIA: {type: GraphQLString},
+        LOGRADOURO: {type: GraphQLString},
+        NUMERO: {type: GraphQLInt},
+        BAIRRO: {type: GraphQLString},
+        LATITUDE: {type: GraphQLFloat},
+        LONGITUDE: {type: GraphQLFloat},
     })
 });
 
-async function getDados(id) {
-    const result = await knex.select().from('teste').where('id', id);
+async function getDataById(id) {
+    const result = await knex.select().from('furtos_celular').where('ID', id);
     return result[0];
+}
+
+async function getAllData() {
+    const result = await knex.select().from('furtos_celular');
+    return result;
 }
 
 // Root Query para fazer a consulta dos dados
@@ -36,7 +40,7 @@ const RootQuery = new GraphQLObjectType({
     name:'RootQueryType',
     fields:{
         data: {
-            type: GenericType,
+            type: OccurrenceType,
             args: {
                 id: {type: GraphQLString}
             },
@@ -45,15 +49,19 @@ const RootQuery = new GraphQLObjectType({
             //         .then(resp => resp.data);
             // }
             async resolve(parentValue, args){
-                const result = await getDados(args.id);
+                const result = await getDataById(args.id);
                 return result;
             }
         },
         dataList: {
-            type: new GraphQLList(GenericType),
-            resolve(parentValue, args){
-                return axios.get('http://localhost:3000/trechoDeVia/')
-                    .then(resp => resp.data);
+            type: new GraphQLList(OccurrenceType),
+            // resolve(parentValue, args){
+            //     return axios.get('http://localhost:3000/trechoDeVia/')
+            //         .then(resp => resp.data);
+            // }
+            async resolve(parentValue, args){
+                const result = await getAllData();
+                return result;
             }
         }
     }
