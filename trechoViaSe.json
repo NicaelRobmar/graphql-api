@@ -52,8 +52,8 @@
 			"numSupVia":"133",
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
-			"extremoA":"",
-			"extremoB":""
+			"extremoA":"9_cruzamentoVia",
+			"extremoB":"10_cruzamentoVia"
 		},{
 			"idTVia":"6_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
@@ -62,7 +62,7 @@
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
 			"extremoA":"4_cruzamentoVia",
-			"extremoB":""
+			"extremoB":"10_cruzamentoVia"
 		},{
 			"idTVia":"7_trechoVia",
 			"nomeVia":"rua conde de sarzedas",
@@ -89,7 +89,7 @@
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
 			"extremoA":"6_cruzamentoVia",
-			"extremoB":""
+			"extremoB":"18_cruzamentoVia"
 		},{
 			"idTVia":"10_trechoVia",
 			"nomeVia":"rua oscar cintra gordinho",
@@ -107,7 +107,7 @@
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
 			"extremoA":"7_cruzamentoVia",
-			"extremoB":""
+			"extremoB":"22_cruzamentoVia"
 		},{
 			"idTVia":"12_trechoVia",
 			"nomeVia":"rua helena zerrener",
@@ -116,7 +116,7 @@
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
 			"extremoA":"7_cruzamentoVia",
-			"extremoB":""
+			"extremoB":"18_cruzamentoVia"
 		},{
 			"idTVia":"13_trechoVia",
 			"nomeVia":"rua glicerio",
@@ -124,8 +124,8 @@
 			"numSupVia":"180",
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
-			"extremoA":"",
-			"extremoB":""
+			"extremoA":"22_cruzamentoVia",
+			"extremoB":"21_cruzamentoVia"
 		},{
 			"idTVia":"14_trechoVia",
 			"nomeVia":"rua glicerio",
@@ -133,17 +133,305 @@
 			"numSupVia":"260",
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
-			"extremoA":"",
-			"extremoB":""
+			"extremoA":"19_cruzamentoVia",
+			"extremoB":"21_cruzamentoVia"
 		},{
-			"idTVia":"_trechoVia",
-			"nomeVia":"",
-			"numInfVia":"",
-			"numSupVia":"",
+			"idTVia":"15_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"241",
+			"numSupVia":"311",
 			"risco":"0.0",
 			"dataMut":"1971-01-01",
-			"extremoA":"",
-			"extremoB":""
+			"extremoA":"14_cruzamentoVia",
+			"extremoB":"13_cruzamentoVia"
+		},{
+			"idTVia":"16_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"337",
+			"numSupVia":"373",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"13_cruzamentoVia",
+			"extremoB":"27_cruzamentoVia"
+		},{
+			"idTVia":"17_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"382",
+			"numSupVia":"415",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"27_cruzamentoVia",
+			"extremoB":"26_cruzamentoVia"
+		},{
+			"idTVia":"18_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"427",
+			"numSupVia":"445",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"26_cruzamentoVia",
+			"extremoB":"29_cruzamentoVia"
+		},{
+			"idTVia":"19_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"446",
+			"numSupVia":"494",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"29_cruzamentoVia",
+			"extremoB":"30_cruzamentoVia"
+		},{
+			"idTVia":"20_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"509",
+			"numSupVia":"532",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"30_cruzamentoVia",
+			"extremoB":"31_cruzamentoVia"
+		},{
+			"idTVia":"21_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"544",
+			"numSupVia":"571",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"31_cruzamentoVia",
+			"extremoB":"32_cruzamentoVia"
+		},{
+			"idTVia":"22_trechoVia",
+			"nomeVia":"rua dos estudantes",
+			"numInfVia":"582",
+			"numSupVia":"609",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"32_cruzamentoVia",
+			"extremoB":"20_cruzamentoVia"
+		},{
+			"idTVia":"23_trechoVia",
+			"nomeVia":"rua conselheiro furtado",
+			"numInfVia":"1",
+			"numSupVia":"64",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"8_cruzamentoVia",
+			"extremoB":"9_cruzamentoVia"
+		},{
+			"idTVia":"24_trechoVia",
+			"nomeVia":"rua conselheiro furtado",
+			"numInfVia":"70",
+			"numSupVia":"200",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"9_cruzamentoVia",
+			"extremoB":"11_cruzamentoVia"
+		},{
+			"idTVia":"25_trechoVia",
+			"nomeVia":"rua conselheiro furtado",
+			"numInfVia":"202",
+			"numSupVia":"296",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"11_cruzamentoVia",
+			"extremoB":"14_cruzamentoVia"
+		},{
+			"idTVia":"26_trechoVia",
+			"nomeVia":"rua conselheiro furtado",
+			"numInfVia":"298",
+			"numSupVia":"356",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"14_cruzamentoVia",
+			"extremoB":"15_cruzamentoVia"
+		},{
+			"idTVia":"27_trechoVia",
+			"nomeVia":"rua doutor lund",
+			"numInfVia":"21",
+			"numSupVia":"96",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"15_cruzamentoVia",
+			"extremoB":"16_cruzamentoVia"
+		},{
+			"idTVia":"28_trechoVia",
+			"nomeVia":"rua doutor lund",
+			"numInfVia":"97",
+			"numSupVia":"400",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"16_cruzamentoVia",
+			"extremoB":"17_cruzamentoVia"
+		},{
+			"idTVia":"29_trechoVia",
+			"nomeVia":"avenida prefeito passos",
+			"numInfVia":"16",
+			"numSupVia":"88",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"22_cruzamentoVia",
+			"extremoB":"23_cruzamentoVia"
+		},{
+			"idTVia":"30_trechoVia",
+			"nomeVia":"rua teixeira leite",
+			"numInfVia":"10",
+			"numSupVia":"52",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"23_cruzamentoVia",
+			"extremoB":"24_cruzamentoVia"
+		},{
+			"idTVia":"31_trechoVia",
+			"nomeVia":"rua teixeira leite",
+			"numInfVia":"54",
+			"numSupVia":"72",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"24_cruzamentoVia",
+			"extremoB":"17_cruzamentoVia"
+		},{
+			"idTVia":"32_trechoVia",
+			"nomeVia":"rua santa luzia",
+			"numInfVia":"2",
+			"numSupVia":"91",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"11_cruzamentoVia",
+			"extremoB":"12_cruzamentoVia"
+		},{
+			"idTVia":"33_trechoVia",
+			"nomeVia":"rua doutor tomas de lima",
+			"numInfVia":"12",
+			"numSupVia":"71",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"10_cruzamentoVia",
+			"extremoB":"12_cruzamentoVia"
+		},{
+			"idTVia":"34_trechoVia",
+			"nomeVia":"rua doutor tomas de lima",
+			"numInfVia":"102",
+			"numSupVia":"166",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"12_cruzamentoVia",
+			"extremoB":"13_cruzamentoVia"
+		},{
+			"idTVia":"35_trechoVia",
+			"nomeVia":"rua doutor tomas de lima",
+			"numInfVia":"188",
+			"numSupVia":"245",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"13_cruzamentoVia",
+			"extremoB":"16_cruzamentoVia"
+		},{
+			"idTVia":"36_trechoVia",
+			"nomeVia":"rua anita ferraz",
+			"numInfVia":"20",
+			"numSupVia":"120",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"25_cruzamentoVia",
+			"extremoB":"26_cruzamentoVia"
+		},{
+			"idTVia":"37_trechoVia",
+			"nomeVia":"rua tabatinguera",
+			"numInfVia":"37",
+			"numSupVia":"550",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"8_cruzamentoVia",
+			"extremoB":"22_cruzamentoVia"
+		},{
+			"idTVia":"38_trechoVia",
+			"nomeVia":"rua vasco pereira",
+			"numInfVia":"13",
+			"numSupVia":"55",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"19_cruzamentoVia",
+			"extremoB":"24_cruzamentoVia"
+		},{
+			"idTVia":"39_trechoVia",
+			"nomeVia":"praça doutor mario margarido",
+			"numInfVia":"63",
+			"numSupVia":"80",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"19_cruzamentoVia",
+			"extremoB":"20_cruzamentoVia"
+		},{
+			"idTVia":"40_trechoVia",
+			"nomeVia":"praça doutor mario margarido",
+			"numInfVia":"12",
+			"numSupVia":"32",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"20_cruzamentoVia",
+			"extremoB":"18_cruzamentoVia"
+		},{
+			"idTVia":"41_trechoVia",
+			"nomeVia":"praça doutor mario margarido",
+			"numInfVia":"33",
+			"numSupVia":"61",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"18_cruzamentoVia",
+			"extremoB":"19_cruzamentoVia"
+		},{
+			"idTVia":"42_trechoVia",
+			"nomeVia":"travessa dos estudantes",
+			"numInfVia":"14",
+			"numSupVia":"123",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"27_cruzamentoVia",
+			"extremoB":"28_cruzamentoVia"
+		},{
+			"idTVia":"43_trechoVia",
+			"nomeVia":"rua egas muniz de aragão",
+			"numInfVia":"20",
+			"numSupVia":"71",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"26_cruzamentoVia",
+			"extremoB":"28_cruzamentoVia"
+		},{
+			"idTVia":"44_trechoVia",
+			"nomeVia":"travessa rugero",
+			"numInfVia":"1",
+			"numSupVia":"12",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"29_cruzamentoVia",
+			"extremoB":"28_cruzamentoVia"
+		},{
+			"idTVia":"45_trechoVia",
+			"nomeVia":"rua livreiro alves",
+			"numInfVia":"1",
+			"numSupVia":"36",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"30_cruzamentoVia",
+			"extremoB":"31_cruzamentoVia"
+		},{
+			"idTVia":"46_trechoVia",
+			"nomeVia":"rua almirante mauriti",
+			"numInfVia":"1",
+			"numSupVia":"70",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"21_cruzamentoVia",
+			"extremoB":"23_cruzamentoVia"
+		},{
+			"idTVia":"47_trechoVia",
+			"nomeVia":"rua glicerio",
+			"numInfVia":"301",
+			"numSupVia":"388",
+			"risco":"0.0",
+			"dataMut":"1971-01-01",
+			"extremoA":"19_cruzamentoVia",
+			"extremoB":"17_cruzamentoVia"
 		}
 	]
 }
